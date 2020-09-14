@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm:watch-dev\" \"npm:serve-dev\"",
     "serve-dev": "live-server --ignorePattern=\".*\\.ts\"",
     "watch-dev": "webpack -w --debug --devtool inline-source-map",
-    "build": "webpack -p",
+    "build": "webpack -p"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,5 @@
     "typescript": "^4.0.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  },
+  }
 }
