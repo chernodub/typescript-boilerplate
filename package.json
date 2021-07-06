@@ -1,8 +1,7 @@
 {
   "name": "@chernodub/typescript-boilerplate",
-  "version": "1.1.0",
+  "version": "0.0.0",
   "description": "The typescript boilerplate with no prod dependencies",
-  "private": "true",
   "scripts": {
     "start": "npm run dev",
     "dev": "npm run build-dev && concurrently \"npm:watch-dev\" \"npm:serve-dev\"",
@@ -12,8 +11,8 @@
     "build-dev": "webpack --mode development --devtool inline-source-map"
   },
   "keywords": [],
-  "author": "Viktor Chernodub",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "concurrently": "^6.2.0",
